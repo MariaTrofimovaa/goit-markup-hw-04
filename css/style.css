@@ -236,7 +236,7 @@ nav {
 
 .hero-image {
   margin: 0 auto;
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
@@ -567,6 +567,8 @@ nav {
 
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   max-width: 1600px;
   background-color: var(--accent-background-color);
@@ -597,10 +599,7 @@ nav {
 
 .footer-flex {
   display: flex;
-
   align-items: baseline;
-  padding-top: 72px;
-  padding-bottom: 100px;
 }
 
 .social-list-footer {
@@ -677,9 +676,6 @@ nav {
 }
 
 .filters-list {
-  min-width: 103px;
-  height: 38px;
-
   padding: 6px 22px;
   border-radius: 4px;
   border: 0;
